@@ -1,4 +1,3 @@
-// Write your code here
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 
@@ -94,7 +93,7 @@ class CowinDashboard extends Component {
   }
 
   renderLoadingView = () => (
-    <div data-testid="Loader" className="loading-view">
+    <div className="loading-view" data-testid="loader">
       <Loader color="#ffffff" height={80} type="ThreeDots" width={80} />
     </div>
   )

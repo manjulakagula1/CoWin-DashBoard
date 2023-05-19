@@ -1,39 +1,71 @@
-/* Write your CSS here */
-/* Write your CSS here */
-.whole-container {
+.app-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #161625;
+  min-height: 100vh;
 }
 
-.main-container {
-  width: 1000px;
-  padding: 10px;
+.cowin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1110px;
 }
 
 .logo-container {
   display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
 }
 
 .logo-heading {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: bold;
   color: #2cc6c6;
-  padding: 2px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: 10px;
 }
 
-.website-image {
-  height: 25px;
-  width: 25px;
-  margin-top: 15px;
-}
-
-.main-heading {
-  font-family: Roboto;
-  font-size: 30px;
-  color: #ffffff;
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.loading-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
+}
+
+.failure-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
 }
